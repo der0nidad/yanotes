@@ -1,7 +1,9 @@
 <template>
   <div class="note-detail">
       <ControlButtons />
-  Название заметки
+  
+  <div class="note-detail__text">текст заметки
+  </div>
   </div>
 </template>
 
@@ -21,5 +23,8 @@ export default {
     /* border: 1px solid greenyellow; */
     height: 100vh;
     width: 70vw;
+}
+.note-detail__text {
+  padding: 12px;
 }
 </style>
