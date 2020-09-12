@@ -29,7 +29,7 @@ export default {
   border: 1px solid gray;
   padding: 10px 0;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content: space-between;
 }
 .control-buttons__note-title {
