@@ -1,6 +1,6 @@
 <template>
   <div class="notes-list">
-    список заметок
+    <div class="notes-list__title">Cписок заметок</div>
     <ul class="notes-list__list">
       <li v-for="note in notes" :key="note.id" x>
         <NoteListItem :note="note" />
@@ -18,7 +18,7 @@ export default {
       notes: [
         {
           id: 1,
-          name: "первая замет",
+          name: "первая заметка",
         },
         {
           id: 2,
@@ -43,5 +43,10 @@ export default {
 .notes-list__list {
   list-style-type: none;
   padding-inline-start: 0;
+}
+.notes-list__title {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 16px;
 }
 </style>

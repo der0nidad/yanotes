@@ -2,8 +2,10 @@
   <div class="note-detail">
       <ControlButtons />
   
-  <div class="note-detail__text">текст заметки
-  </div>
+    <textarea
+        class="note-detail__text"
+      placeholder="Начните вводить текст заметки..."
+    />
   </div>
 </template>
 
@@ -25,6 +27,15 @@ export default {
     width: 70vw;
 }
 .note-detail__text {
-  padding: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding: 8px 0 0 8px;
+
+
+}
+.note-detail__text::placeholder {
+  color: #666666;
 }
 </style>
