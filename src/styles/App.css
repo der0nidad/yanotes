@@ -1,0 +1,14 @@
+/* @import url('../assets/fonts/Montserrat/Montserrat-Regular.ttf'); */
+@font-face {
+    font-family: 'Montserrat';
+    /* TODO add more browser support */
+    src: url('../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+  }
+
+html, body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#app {
+    font-family: 'Montserrat', sans-serif;
+}
